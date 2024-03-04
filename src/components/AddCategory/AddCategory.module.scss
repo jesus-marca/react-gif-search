@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.containerInput{
+    width: 40%;
+}
+.containerButton{
+    margin-top: 2rem;
+    width: 5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border:0.15rem solid ;
+    box-shadow: 0.1rem 0.1rem;
+    cursor: pointer;
+    transition: 0.2s transform ease;
+}
+// .containerButton:hover{
+//     background-color: #bebebe;
+    
+// }
+.containerButton:active{
+    transform: scale(0.9);
+    
+}
