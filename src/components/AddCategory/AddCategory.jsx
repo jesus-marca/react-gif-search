@@ -16,7 +16,7 @@ export const AddCategory = ({ onNewCategory,categories }) => {
   };
   return (
     <form onSubmit={onSubmit} className={style.container}>
-      <label htmlFor="add">Ingresar nombre</label>
+      <label className={style.tag} htmlFor="add">Ingresar nombre</label>
       <input
       className={style.containerInput}
         type="text"
